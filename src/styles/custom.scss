@@ -85,7 +85,22 @@
     }
   }
 }
-
+.myday-settings {
+  color: $darkGrayText;
+  display: flex;
+  justify-content: space-between;
+  width: 76%;
+  margin: 0 auto;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid $iconsGray;
+  margin-bottom: 0.8rem;
+  .myday-settings-options {
+    cursor: pointer;
+    &:hover {
+      color: $black;
+    }
+  }
+}
 .apps-recents {
   .apps-recents-title {
     background-color: $mainContainerLighter;
@@ -95,13 +110,26 @@
     border-bottom: 1px solid $applicationsGray;
     padding: 0.3rem 1rem;
   }
+  .apps-recent-none {
+    color: $titlesTextGray;
+    font-size: 0.9rem;
+    margin: 1rem;
+  }
   ul {
     li {
       border-bottom: 1px solid $applicationsGray;
+      cursor: pointer;
+      &:hover {
+        background-color: $mainContainer;
+      }
       font-size: 0.9rem;
       padding: 0.8rem 0 !important;
       padding-left: 0.6rem !important;
-      .apps-recent-badge,
+      &:hover {
+        background-color: $mainContainer;
+      }
+      .apps-recent-badge0,
+      .apps-recent-badge1,
       .apps-recent-badge2,
       .apps-recent-badge3,
       .apps-recent-badge4 {
@@ -114,7 +142,10 @@
         text-align: center;
         width: 1.3rem;
       }
-      .apps-recent-badge {
+      .apps-recent-badge0 {
+        background-color: #f39600;
+      }
+      .apps-recent-badge1 {
         background-color: #009af3;
       }
       .apps-recent-badge2 {

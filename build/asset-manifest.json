@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/launchpad-prototype/static/css/main.fe2f8021.css",
+    "main.js": "/launchpad-prototype/static/js/main.d456882b.js",
+    "static/media/custom.png": "/launchpad-prototype/static/media/custom.c3f29ad6b5a419202d74.png",
+    "static/media/customwhite.png": "/launchpad-prototype/static/media/customwhite.b4df532b639b6e6fb28c.png",
+    "static/media/settings.png": "/launchpad-prototype/static/media/settings.222e387fd7190ae5d01f.png",
+    "static/media/magnifying-glass.png": "/launchpad-prototype/static/media/magnifying-glass.6e8f2f9a872e0770423c.png",
+    "static/media/calendar.png": "/launchpad-prototype/static/media/calendar.5ace79ca751a2b5ab779.png",
+    "static/media/magnifying-glass-white.png": "/launchpad-prototype/static/media/magnifying-glass-white.b5d5ca4c718cf37f17eb.png",
+    "static/media/calendawhite.png": "/launchpad-prototype/static/media/calendawhite.6b81f050ba9e3d23d7d8.png",
+    "index.html": "/launchpad-prototype/index.html",
+    "main.fe2f8021.css.map": "/launchpad-prototype/static/css/main.fe2f8021.css.map",
+    "main.d456882b.js.map": "/launchpad-prototype/static/js/main.d456882b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe2f8021.css",
+    "static/js/main.d456882b.js"
+  ]
+}

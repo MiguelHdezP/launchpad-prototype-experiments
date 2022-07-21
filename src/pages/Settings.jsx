@@ -25,11 +25,12 @@ export default function Settings(props) {
                 id="js-today"
                 name="today"
                 value="1"
-                checked={checkedState}
+                checked={true}
                 onChange={(e) => {
                   setCheckedState(!checkedState);
                   handleCheckBoxes(e);
                 }}
+                disabled
               />
               <label htmlFor="js-today">Today</label>
             </div>

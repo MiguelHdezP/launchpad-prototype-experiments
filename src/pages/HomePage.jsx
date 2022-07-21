@@ -7,17 +7,7 @@ export default function Homepage() {
   return (
     <ContentContainer customClassContainer="homepage">
       <SectionHeader sectionText="Homepage" />
-      <ul>
-        <li>
-          <a href="/apps">Prototype 1</a>
-        </li>
-        <li>
-          <a href="">Prototype 2</a>
-        </li>
-        <li>
-          <a href="">Prototype 3</a>
-        </li>
-      </ul>
+      <h1>This is the Homepage</h1>
     </ContentContainer>
   );
 }

@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./PatientCard.scss";
+import { personDummy } from "../AssetsFiles";
 
 export default function PatientCard(props) {
   const {
@@ -9,7 +10,8 @@ export default function PatientCard(props) {
     patientInfo3,
     patientInfo4,
     newPatient,
-    toggleModalEmailRead,
+    toogleModalAction,
+    persona = true,
   } = props;
   const [toggleNewMessage, setToggleNewMessage] = useState(newPatient);
 
@@ -18,11 +20,21 @@ export default function PatientCard(props) {
   }, [newPatient]);
 
   const handleClick = () => {
-    toggleModalEmailRead();
+    toogleModalAction();
     setToggleNewMessage(false);
   };
   return (
     <article>
+      {persona ? (
+        <img
+          src={personDummy}
+          alt="Persona"
+          className="patienCard-persona-img"
+        />
+      ) : (
+        <input type="checkbox" />
+      )}
+
       <div
         className="patientCard-article1"
         onClick={() => (newPatient ? handleClick() : "")}
